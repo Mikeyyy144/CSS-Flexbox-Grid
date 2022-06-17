@@ -45,7 +45,8 @@ body {
     justify-content: center;
     align-items: center;
     width: 80%;
-    flex-wrap: wrap;  
+    flex-wrap: wrap; 
+    margin: auto;
   }
 
 .sedans {
