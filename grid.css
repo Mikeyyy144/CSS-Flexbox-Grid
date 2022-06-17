@@ -1,0 +1,85 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+header{
+    display: flex;
+    align-items: center;
+}
+.nav{
+    text-decoration: none;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin: auto;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 60px;
+    padding-bottom: 0px;
+    padding-top: 40px;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+body{
+    background-color: hsl(0, 0%, 95%);
+    height: 70vh;
+}
+.main{
+    display: flex;
+    align-items: center;
+    height: 100%;
+    
+}
+.div{
+    display: grid;
+    grid-template-areas: 'a a a b' 'a a a b' 'c c d d' 'c c e e';
+    grid-template-rows: 20%;
+    gap: 10px;
+    width: 50%;
+    margin: auto;
+    height: 100%;
+}
+.div div{
+    padding: 3em;
+    text-align: center;
+    height: 100%;
+}
+.one{
+    grid-area: a;
+    background-color: orangered;
+}
+.two{
+    grid-area: b;
+    background-color: orange;
+}
+.three{
+    grid-area: c;
+    background-color: rgb(0, 180, 0);
+}
+.four{
+    background-color: rgb(0, 152, 202);
+    grid-area: d;
+}
+.five{
+    background-color: rgb(0, 152, 202);
+    grid-area: e;
+}
+@media screen and (max-width: 800px){
+    .div{
+        display: flex;
+        flex-direction: column;
+    }
+    .nav{
+        text-decoration: none;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        margin: auto;
+        font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+        font-size: 40px;
+        padding-bottom: 0px;
+        padding-top: 40px;
+    }
+}

@@ -1,0 +1,190 @@
+@import url('https://fonts.google.com/specimen/Lexend+Deca');
+@import url('https://fonts.google.com/specimen/Big+Shoulders+Display');
+* {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+header{
+    display: flex;
+    align-items: center;
+}
+.nav{
+    text-decoration: none;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin: auto;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 60px;
+    padding-bottom: 0px;
+    padding-top: 40px;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+body {
+    font-family: "Lexend Deca", sans-serif;
+    background-color: hsl(0, 0%, 95%);
+    font-size: 15px;
+    /* overflow: hidden; */
+    /* display: flex; */
+    /* overflow: auto; */
+  }
+  article {
+    max-width: 270px;
+    height: 450px;
+    padding: 70px;
+    position: relative;
+    align-items: center;
+  }
+  main {
+    display: flex;
+    /* flex-direction: row; */
+    justify-content: center;
+    align-items: center;
+    width: 80%;
+    flex-wrap: wrap;  
+  }
+
+.sedans {
+    background-color: hsl(31, 77%, 52%);
+    border-radius: 7px 0 0 7px;
+}
+.suvs{
+    background-color: hsl(184, 100%, 22%);
+}
+.luxury{
+    background-color: hsl(179, 100%, 13%);
+    border-radius: 0 7px 7px 0;
+}
+img {
+    margin-bottom: 16px;
+  }
+  
+  h1 {
+    font-family: "Big Shoulders Display", sans-serif;
+    font-weight: 700;
+    font-size: 36px;
+    color: hsl(0, 0%, 95%);
+    margin-bottom: 1.5rem;
+  }
+  
+  article p {
+    color: hsla(0, 0%, 100%, 0.75);
+    font-size: 13.8px;
+    line-height: 1.5rem;
+  }
+button {
+    position: absolute;
+    cursor: pointer;
+    text-align: center;
+    display: inline-block;
+    padding: 14px;
+    margin-top: 14px;
+    width: 146px;
+    border-radius: 25px;
+    outline: none;
+    border: 2px solid hsl(0, 0%, 95%);
+    font-family: inherit;
+    transition: all 0.2s ease-in-out;
+    bottom: 40px;
+  }
+  .sedans button {
+    background: hsl(0, 0%, 95%);
+    color: hsl(31, 77%, 52%);
+  }
+  
+  .suvs button {
+    background-color: hsl(0, 0%, 95%);
+    color: hsl(184, 100%, 22%);
+  }
+  
+  .luxury button {
+    background-color: hsl(0, 0%, 95%);
+    color: hsl(179, 100%, 13%);
+  }
+  button:hover {
+    background-color: transparent;
+    color: hsl(0, 0%, 95%);
+  }
+  
+  button:active {
+    transform: scale(0.9);
+  }
+  .attribution {
+    width: 100%;
+    margin: 0 auto;
+    /* position: absolute; */
+    color: var(--gray);
+    bottom: 10px;
+    font-size: 0.75rem;
+    line-height: 20px;
+    text-align: center;
+  }
+  
+  .attribution a {
+    text-decoration: none;
+    color: var(--dark-gray);
+  }
+  
+  .attribution a:hover {
+    color: var(--black);
+  }
+@media only screen and (max-width: 600px) {
+    body {
+      display: flex;
+      width: 100%;
+      overflow: scroll;
+      flex-wrap: wrap;
+    }
+  
+    .cars {
+      padding: 50px 0;
+      flex-direction: column;
+    }
+  
+    .sedans {
+      border-radius: 7px 0 0 7px;
+    }
+  
+    .luxury {
+      border-radius: 0 0 7px 7px;
+    }
+    .suvs{
+        border-radius: 0 7px 7px 0 ;
+    }
+  
+    article p {
+      font-size: 0.77rem;
+    }
+  
+    .attribution {
+      position: relative;
+      width: auto;
+      padding-bottom: 10px;
+    }
+  }
+  @media only screen and (max-width: 541px) {
+    .sedans {
+        border-radius: 7px 7px 0 0;
+      }
+    
+      .luxury {
+        border-radius: 0 0 7px 7px;
+      }
+      .suvs{
+          border-radius: 0 0 0 0 ;
+      }
+  }
+
+p{
+    color: hsla(0, 0%, 100%, 0.75);
+}
+h2{
+    color: hsl(0, 0%, 95%);
+}
+button{
+    margin-top: 60px;
+}
