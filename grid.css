@@ -66,20 +66,3 @@ body{
     background-color: rgb(0, 152, 202);
     grid-area: e;
 }
-@media screen and (max-width: 800px){
-    .div{
-        display: flex;
-        flex-direction: column;
-    }
-    .nav{
-        text-decoration: none;
-        display: flex;
-        flex-direction: row;
-        align-items: center;
-        margin: auto;
-        font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-        font-size: 40px;
-        padding-bottom: 0px;
-        padding-top: 40px;
-    }
-}
