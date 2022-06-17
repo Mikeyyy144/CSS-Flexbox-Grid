@@ -166,20 +166,25 @@ button {
       width: auto;
       padding-bottom: 10px;
     }
+     .nav{
+        text-decoration: none;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        margin: auto;
+        font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+        font-size: 50px;
+        padding-bottom: 0px;
+        padding-top: 40px;
+    }
+    header{
+        display: flex;
+      width: 100%;
+      overflow: scroll;
+      flex-wrap: wrap;
+    }
   }
-  @media only screen and (max-width: 541px) {
-    .sedans {
-        border-radius: 7px 7px 0 0;
-      }
-    
-      .luxury {
-        border-radius: 0 0 7px 7px;
-      }
-      .suvs{
-          border-radius: 0 0 0 0 ;
-      }
-  }
-
+ 
 p{
     color: hsla(0, 0%, 100%, 0.75);
 }
